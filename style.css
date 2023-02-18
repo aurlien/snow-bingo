@@ -11,6 +11,8 @@
 }
 
 :root {
+  --doc-height: 100%;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -26,11 +28,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html,
 body {
-  margin: 0;
-  place-items: top;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
 }
 
 h1 {
