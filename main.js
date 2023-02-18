@@ -9,7 +9,7 @@ var loading = false;
 const items = snowTypes.sort(() => Math.random() - 0.5);
 
 document.querySelector("#app").innerHTML = `
-  <h1>Sn❆Bingo</h1>
+  <h1>Sn❆wBingo</h1>
   <div class="container">
     <div id="card"></div>
     <div id="info"></div>
