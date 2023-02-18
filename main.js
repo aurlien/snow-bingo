@@ -2,7 +2,7 @@ import "./style.css";
 import spinner from "./spinner.svg";
 import { snowTypes } from "./data";
 
-const delay = 0;
+const delay = 1000;
 var counter = 0;
 var loading = false;
 
